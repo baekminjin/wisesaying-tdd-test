@@ -50,6 +50,6 @@ public class WiseSayingControllerTest {
 
 		assertThat(output)
 				.contains("1번 명언이 등록되었습니다.")
-				.contains("2번 명언이 등록되었습니다.");
+				.contains("2번 명언이 등록되었습니다. ");
 	}
 }
