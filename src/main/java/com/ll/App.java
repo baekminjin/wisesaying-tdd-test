@@ -27,7 +27,10 @@ public class App {
 
 			else if("등록".equals(cmd)){
 				wiseSayingController.actionAdd();
-				System.out.println("1번 명언이 등록되었습니다.");
+			}
+
+			else if("목록".equals(cmd)){
+				wiseSayingController.actionList();
 			}
 		}
 	}
